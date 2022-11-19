@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}Anasayfa - {{block.super}} {% endblock %}
+
+{% block body %}
+
+Hoşgeldiniz, {{request.user.get_full_name}}
+<div class="container-fluid">
+   <div class ="row" style="margin-bottom: 30px;">
+     <div class="col-md-3 col-sm-6" style="background-color:darksalmon; height: 100px"></div>
+     <div class="col-md-3 col-sm-6" style="background-color:rgb(122, 233, 172); height: 100px"></div>
+     <div class="col-md-3 col-sm-6" style="background-color:rgb(233, 122, 218); height: 100px"></div>
+     <div class="col-md-3 col-sm-6" style="background-color:rgb(133, 122, 233); height: 100px"></div>
+   </div>
+</div>
+
+<!-- <div class="container-fluid">
+    <div class ="row" style="margin-bottom: 30px;">
+      <div class="col-md-3 col-sm-6" style="background-color:darksalmon; height: 200px">1.ürün </div>
+      <div class="col-md-3 col-sm-6" style="background-color:rgb(122, 233, 172); height: 200px">2.ürün </div>
+      <div class="col-md-3 col-sm-6" style="background-color:rgb(233, 122, 218); height: 200px">3.ürün </div>
+      <div class="col-md-3 col-sm-6" style="background-color:rgb(133, 122, 233); height: 200px">4.ürün </div>
+    </div>
+ </div>
+
+ <div class="container-fluid">
+    <div class ="row" style="margin-bottom: 30px;">
+      <div class="col-md-3 col-sm-6" style="background-color:darksalmon; height: 200px">1.ürün </div>
+      <div class="col-md-3 col-sm-6" style="background-color:rgb(122, 233, 172); height: 200px">2.ürün </div>
+      <div class="col-md-3 col-sm-6" style="background-color:rgb(233, 122, 218); height: 200px">3.ürün </div>
+      <div class="col-md-3 col-sm-6" style="background-color:rgb(133, 122, 233); height: 200px">4.ürün </div>
+    </div>
+ </div>
+
+ <div class="container-fluid">
+   <div class ="row" style="margin-bottom: 30px;">
+     <div class="col-md-3 col-sm-6" style="background-color:darksalmon; height: 200px">1.ürün </div>
+     <div class="col-md-3 col-sm-6" style="background-color:rgb(122, 233, 172); height: 200px">2.ürün </div>
+     <div class="col-md-3 col-sm-6" style="background-color:rgb(233, 122, 218); height: 200px">3.ürün </div>
+     <div class="col-md-3 col-sm-6" style="background-color:rgb(133, 122, 233); height: 200px">4.ürün </div>
+   </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4" style="background-color: aqua; height: 100px ;"></div>
+    <div class="col-md-10" style="background-color: rgb(32, 139, 0); height: 100px ;"></div>
+      <div class="row">
+        <div class="col-md-2" style="background-color: darkviolet; height: 100px ;"></div>
+        <div class="col-md-6" style="background-color: deeppink; height: 100px ;"></div>
+        <div class="col-md-4" style="background-color: crimson; height: 100px ;"></div>
+    </div> -->
+</div>
+
+
+{% endblock %}
+
